@@ -32,7 +32,7 @@
             inherit version;
             src = ./caddy-src;
             runVend = true;
-            vendorHash = "sha256-MfXftwGjkVU8TDDEFfnYR2nCZ9lVKW8YuljTHegJm2w=";
+            vendorHash = "sha256-JqIZ3xL8oODGmAbuYQtFky5mmPMfuyR/pvk911anIUY=";
             meta = {
               mainProgram = "caddy";
             };

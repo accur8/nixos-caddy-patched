@@ -18,6 +18,7 @@ import (
 	_ "github.com/caddy-dns/porkbun"
 	_ "github.com/caddy-dns/cloudflare"
 	_ "github.com/caddy-dns/route53"
+	_ "github.com/sandstorm/caddy-nats-bridge"
 )
 
 func main() {

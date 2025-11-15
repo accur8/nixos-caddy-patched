@@ -1,6 +1,6 @@
 {
   description = "A simple Go package";
-  inputs.nixpkgs.url = "github:nixos/nixpkgs/nixpkgs-unstable";
+  inputs.nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
   outputs = { self, nixpkgs }:
     let
 
@@ -32,7 +32,7 @@
             inherit version;
             src = ./caddy-src;
             runVend = true;
-            vendorHash = "sha256-JD5NMt1KwkJGCV2bNPe8jCabH6DefqL6Jv9OZlWlb50=";
+            vendorHash = "sha256-gfQQK6DPS/YwcPdrHIHIpiEXXofmHmwkjRlS6o/J72A=";
             meta = {
               mainProgram = "caddy";
             };

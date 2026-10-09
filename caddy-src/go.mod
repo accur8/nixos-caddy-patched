@@ -7,6 +7,7 @@ require (
 	github.com/caddy-dns/porkbun v0.3.1
 	github.com/caddy-dns/route53 v1.6.0
 	github.com/caddyserver/caddy/v2 v2.10.2
+	github.com/caddyserver/replace-response v0.0.0-20250618171559-80962887e4c6
 	github.com/sandstorm/caddy-nats-bridge v0.7.1
 )
 
@@ -78,6 +79,7 @@ require (
 	github.com/googleapis/gax-go/v2 v2.15.0 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.27.1 // indirect
 	github.com/huandu/xstrings v1.5.0 // indirect
+	github.com/icholy/replace v0.6.0 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/jackc/pgpassfile v1.0.0 // indirect
 	github.com/jackc/pgservicefile v0.0.0-20240606120523-5a60cdf6a761 // indirect

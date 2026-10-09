@@ -19,6 +19,7 @@ import (
 	_ "github.com/caddy-dns/cloudflare"
 	_ "github.com/caddy-dns/route53"
 	_ "github.com/sandstorm/caddy-nats-bridge"
+	_ "github.com/caddyserver/replace-response"
 )
 
 func main() {
